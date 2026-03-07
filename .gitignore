@@ -1,0 +1,5 @@
+.env
+.*.sw?
+.*.*.sw?
+.*.*.*.sw?
+node_modules
