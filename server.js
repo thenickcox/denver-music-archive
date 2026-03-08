@@ -166,7 +166,7 @@ app.get('/', async (req, res) => {
   <div class="intro">
     <p><strong>Preserving underground Denver music from 1997-2005.</strong></p>
     <p>Recordings you can't find anywhere else. A love letter to the Denver music scene of that era.</p>
-    <p>Have recordings from this time period? Email: <strong>yourname@gmail.com</strong></p>
+    <p>Have recordings from this time period? Email: <strong>nick@nickcox.me</strong></p>
   </div>
 
   ${Object.entries(catalog).sort().map(([artist, albums]) => `
