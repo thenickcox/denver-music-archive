@@ -28,8 +28,6 @@ function loadBios() {
   return bios;
 }
 
-const bios = loadBios();
-
 // Cache catalog in memory, refresh every hour
 let catalogCache = null;
 let lastFetch = 0;
@@ -68,6 +66,7 @@ async function fetchCatalog() {
 
   const data = await filesResponse.json();
 
+  const bios = loadBios();
   const catalog = {};
 
   data.files.forEach(file => {
@@ -142,6 +141,9 @@ app.get('/', async (req, res) => {
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 15px;
       margin-bottom: 50px;
+    }
+    a {
+      color: #ff0000b3;
     }
     .artist-card {
       background: #fff;
