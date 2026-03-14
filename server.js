@@ -142,9 +142,6 @@ app.get('/', async (req, res) => {
       gap: 15px;
       margin-bottom: 50px;
     }
-    a {
-      color: #ff0000b3;
-    }
     .artist-card {
       background: #fff;
       padding: 20px;
@@ -281,6 +278,9 @@ app.get('/artist/:slug', async (req, res) => {
       border-top: 2px solid #ddd;
       text-align: center;
       color: #666;
+    }
+    a {
+      color: rgb(234,54,36);
     }
   </style>
 </head>
