@@ -1,6 +1,4 @@
-# Ask Me About Dragons
-
-Ask Me About Dragons is the solo project of Caleb Tardio from [/artist/i-sank-molly-brown]. The songs are typically instrumental 8-bit inspired hip-hop-infused pieces with experimental chord changes and rhythms. One notable exception to the instrumental pattern is "Rose," which features Tardio rapping about existential themes.
+Ask Me About Dragons is the solo project of Caleb Tardio from [I Sank Molly Brown](/artist/i-sank-molly-brown). The songs are typically instrumental 8-bit inspired hip-hop-infused pieces with experimental chord changes and rhythms. One notable exception to the instrumental pattern is "Rose," which features Tardio rapping about existential themes.
 
 Tardio typically sequenced the drums and synthesizers in the popular Ableton DAW.
 
