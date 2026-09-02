@@ -1,0 +1,16 @@
+name = "denvermusicarchive"
+main = "src/worker.js"
+compatibility_date = "2026-08-01"
+
+# Non-secret config. B2_KEY_ID and B2_APP_KEY are set as secrets:
+#   wrangler secret put B2_KEY_ID
+#   wrangler secret put B2_APP_KEY
+# For local dev, copy .env to .dev.vars (gitignored).
+[vars]
+B2_BUCKET_ID = "dd76c2b3f027cc999ccd0a1d"
+B2_BUCKET_NAME = "denver-music-archive"
+
+# Bundle bios/*.md as importable text modules
+[[rules]]
+globs = ["**/*.md"]
+type = "Text"
